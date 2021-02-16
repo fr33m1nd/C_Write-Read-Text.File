@@ -1,0 +1,15 @@
+02/04/2021, Ohio, Butler, Hispanic, 3, 133000.00
+02/04/2021, Kentucky, Boone, Asian, 2, 174253.00
+02/04/2021, Ohio, Hamilton, Caucasian, 1, 92564.00
+02/04/2021, Ohio, Butler, African American, 4, 81054.00
+02/07/2021, Kentucky, Boone, Caucasian, 3, 20000.00
+02/07/2021, Kentucky, Kenton, African American, 4, 40000.00
+02/07/2021, Ohio, Butler, African American, 5, 125050.00
+02/09/2021, Ohio, Hamilton, Caucasian, 6, 45000.00
+02/09/2021, Kentucky, Kenton, Other, 2, 400000.00
+02/09/2021, Ohio, Hamilton, Hispanic, 5, 39778.00
+02/09/2021, Kentucky, Boone, Other, 4, 134688.00
+02/13/2021, Ohio, Hamilton, Other, 3, 78951.00
+02/13/2021, Kentucky, Kenton, Hispanic, 4, 114588.00
+02/15/2021, Ohio, Hamilton, African American, 2, 33000.00
+02/15/2021, Kentucky, Boone, Asian, 3, 134021.00
