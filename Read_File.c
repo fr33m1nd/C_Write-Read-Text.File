@@ -60,44 +60,44 @@ void PrintSurvey(int intIndex, udtSurveyType udtSurvey);
 
 // User Menu Functions 
 char UserMenu(char chrSelection);
-int TotalHouseholdsSurveyed(udtSurveyType audtSurveyList[], int intTotalHousesSurveyed);
-int TotalHouseholdsSurveyedOhio(udtSurveyType audtSurveyList[], int intHousesSurveyedOhio);
-int TotalHouseholdsSurveyedHamilton(udtSurveyType audtSurveyList[], int intHousesSurveyedHamilton);
-int TotalHouseholdsSurveyedButler(udtSurveyType audtSurveyList[], int intHousesSurveyedButler);
-int TotalHouseholdsSurveyedKentucky(udtSurveyType audtSurveyList[], int intHousesSurveyedKentucky);
-int TotalHouseholdsSurveyedBoone(udtSurveyType audtSurveyList[], int intHousesSurveyedBoone);
-int TotalHouseholdsSurveyedKenton(udtSurveyType audtSurveyList[], int intHousesSurveyedKenton);
-int TotalHouseholdsSurveyedCaucasian(udtSurveyType audtSurveyList[], int intHousesSurveyedCaucasian);
-int TotalHouseholdsSurveyedAfricanAmerican(udtSurveyType audtSurveyList[], int intHousesSurveyedAfricanAmerican);
-int TotalHouseholdsSurveyedHispanic(udtSurveyType audtSurveyList[], int intHousesSurveyedHispanic);
-int TotalHouseholdsSurveyedAsian(udtSurveyType audtSurveyList[], int intHousesSurveyedAsian);
-int TotalHouseholdsSurveyedOther(udtSurveyType audtSurveyList[], int intHousesSurveyedOther);
+int TotalHouseholdsSurveyed(udtSurveyType audtSurveyList[], size_t sizeArray, int intTotalHousesSurveyed);
+int TotalHouseholdsSurveyedOhio(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedOhio);
+int TotalHouseholdsSurveyedHamilton(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedHamilton);
+int TotalHouseholdsSurveyedButler(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedButler);
+int TotalHouseholdsSurveyedKentucky(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedKentucky);
+int TotalHouseholdsSurveyedBoone(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedBoone);
+int TotalHouseholdsSurveyedKenton(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedKenton);
+int TotalHouseholdsSurveyedCaucasian(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedCaucasian);
+int TotalHouseholdsSurveyedAfricanAmerican(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedAfricanAmerican);
+int TotalHouseholdsSurveyedHispanic(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedHispanic);
+int TotalHouseholdsSurveyedAsian(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedAsian);
+int TotalHouseholdsSurveyedOther(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedOther);
 
-float TotalAverageIncome(udtSurveyType audtSurveyList[], float sngTotalAverageIncome, int intTotalHousesSurveyed, float sngTotalIncome);
-float AverageIncomeOhio(udtSurveyType audtSurveyList[], float sngAverageIncomeOhio, int intTotalHousesSurveyedOhio, float sngTotalIncomeOhio);
-float AverageIncomeHamilton(udtSurveyType audtSurveyList[], float sngAverageIncomeHamilton, int intHousesSurveyedHamilton, float sngTotalIncomeHamilton);
-float AverageIncomeButler(udtSurveyType audtSurveyList[], float sngAverageIncomeButler, int intHousesSurveyedButler, float sngTotalIncomeButler);
-float AverageIncomeKentucky(udtSurveyType audtSurveyList[], float sngAverageIncomeKentucky, int intHousesSurveyedKentucky, float sngTotalIncomeKentucky);
-float AverageIncomeBoone(udtSurveyType audtSurveyList[], float sngAverageIncomeBoone, int intHousesSurveyedBoone, float sngTotalIncomeBoone);
-float AverageIncomeKenton(udtSurveyType audtSurveyList[], float sngAverageIncomeKenton, int intHousesSurveyedKenton, float sngTotalIncomeKenton);
-float AverageIncomeCaucasian(udtSurveyType audtSurveyList[], float sngAverageIncomeCaucasian, int intHousesSurveyedCaucasian, float sngTotalIncomeCaucasian);
-float AverageIncomeAfricanAmerican(udtSurveyType audtSurveyList[], float sngAverageIncomeAfricanAmerican, int intHousesSurveyedAfricanAmerican, float sngTotalIncomeAfricanAmerican);
-float AverageIncomeHispanic(udtSurveyType audtSurveyList[], float sngAverageIncomeHispanic, int intHousesSurveyedHispanic, float sngTotalIncomeHispanic);
-float AverageIncomeAsian(udtSurveyType audtSurveyList[], float sngAverageIncomeAsian, int intHousesSurveyedAsian, float sngTotalIncomeAsian);
-float AverageIncomeOther(udtSurveyType audtSurveyList[], float sngAverageIncomeOther, int intHousesSurveyedOther, float sngTotalIncomeOther);
+float TotalAverageIncome(udtSurveyType audtSurveyList[], size_t sizeArray, float sngTotalAverageIncome, int intTotalHousesSurveyed, float sngTotalIncome);
+float AverageIncomeOhio(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeOhio, int intTotalHousesSurveyedOhio, float sngTotalIncomeOhio);
+float AverageIncomeHamilton(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeHamilton, int intHousesSurveyedHamilton, float sngTotalIncomeHamilton);
+float AverageIncomeButler(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeButler, int intHousesSurveyedButler, float sngTotalIncomeButler);
+float AverageIncomeKentucky(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeKentucky, int intHousesSurveyedKentucky, float sngTotalIncomeKentucky);
+float AverageIncomeBoone(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeBoone, int intHousesSurveyedBoone, float sngTotalIncomeBoone);
+float AverageIncomeKenton(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeKenton, int intHousesSurveyedKenton, float sngTotalIncomeKenton);
+float AverageIncomeCaucasian(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeCaucasian, int intHousesSurveyedCaucasian, float sngTotalIncomeCaucasian);
+float AverageIncomeAfricanAmerican(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeAfricanAmerican, int intHousesSurveyedAfricanAmerican, float sngTotalIncomeAfricanAmerican);
+float AverageIncomeHispanic(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeHispanic, int intHousesSurveyedHispanic, float sngTotalIncomeHispanic);
+float AverageIncomeAsian(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeAsian, int intHousesSurveyedAsian, float sngTotalIncomeAsian);
+float AverageIncomeOther(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeOther, int intHousesSurveyedOther, float sngTotalIncomeOther);
 
-float TotalHouseholdsPoverty(udtSurveyType audtSurveyList[], int intTotalHousesSurveyed, int intTotalHouseholdsPoverty, float sngPercentageHouseholdsPoverty);
-float HouseholdsPovertyOhio(udtSurveyType audtSurveyList[], int intHousesSurveyedOhio, int intHouseholdsPovertyOhio, float sngPercentageHouseholdsPovertyOhio);
-float HouseholdsPovertyHamilton(udtSurveyType audtSurveyList[], int intHousesSurveyedHamilton, int intHouseholdsPovertyHamilton, float sngPercentageHouseholdsPovertyHamilton);
-float HouseholdsPovertyButler(udtSurveyType audtSurveyList[], int intHousesSurveyedButler, int intHouseholdsPovertyButler, float sngPercentageHouseholdsPovertyButler);
-float HouseholdsPovertyKentucky(udtSurveyType audtSurveyList[], int intHousesSurveyedKentucky, int intHouseholdsPovertyKentucky, float sngPercentageHouseholdsPovertyKentucky);
-float HouseholdsPovertyBoone(udtSurveyType audtSurveyList[], int intHousesSurveyedBoone, int intHouseholdsPovertyBoone, float sngPercentageHouseholdsPovertyBoone);
-float HouseholdsPovertyKenton(udtSurveyType audtSurveyList[], int intHousesSurveyedKenton, int intHouseholdsPovertyKenton, float sngPercentageHouseholdsPovertyKenton);
-float HouseholdsPovertyCaucasian(udtSurveyType audtSurveyList[], int intHousesSurveyedCaucasian, int intHouseholdsPovertyCaucasian, float sngPercentageHouseholdsPovertyCaucasian);
-float HouseholdsPovertyAfricanAmerican(udtSurveyType audtSurveyList[], int intHousesSurveyedAfricanAmerican, int intHouseholdsPovertyAfricanAmerican, float sngPercentageHouseholdsPovertyAfricanAmerican);
-float HouseholdsPovertyHispanic(udtSurveyType audtSurveyList[], int intHousesSurveyedHispanic, int intHouseholdsPovertyHispanic, float sngPercentageHouseholdsPovertyHispanic);
-float HouseholdsPovertyAsian(udtSurveyType audtSurveyList[], int intHousesSurveyedAsian, int intHouseholdsPovertyAsian, float sngPercentageHouseholdsPovertyAsian);
-float HouseholdsPovertyOther(udtSurveyType audtSurveyList[], int intHousesSurveyedOther, int intHouseholdsPovertyOther, float sngPercentageHouseholdsPovertyOther);
+float TotalHouseholdsPoverty(udtSurveyType audtSurveyList[], size_t sizeArray, int intTotalHousesSurveyed, int intTotalHouseholdsPoverty, float sngPercentageHouseholdsPoverty);
+float HouseholdsPovertyOhio(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedOhio, int intHouseholdsPovertyOhio, float sngPercentageHouseholdsPovertyOhio);
+float HouseholdsPovertyHamilton(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedHamilton, int intHouseholdsPovertyHamilton, float sngPercentageHouseholdsPovertyHamilton);
+float HouseholdsPovertyButler(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedButler, int intHouseholdsPovertyButler, float sngPercentageHouseholdsPovertyButler);
+float HouseholdsPovertyKentucky(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedKentucky, int intHouseholdsPovertyKentucky, float sngPercentageHouseholdsPovertyKentucky);
+float HouseholdsPovertyBoone(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedBoone, int intHouseholdsPovertyBoone, float sngPercentageHouseholdsPovertyBoone);
+float HouseholdsPovertyKenton(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedKenton, int intHouseholdsPovertyKenton, float sngPercentageHouseholdsPovertyKenton);
+float HouseholdsPovertyCaucasian(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedCaucasian, int intHouseholdsPovertyCaucasian, float sngPercentageHouseholdsPovertyCaucasian);
+float HouseholdsPovertyAfricanAmerican(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedAfricanAmerican, int intHouseholdsPovertyAfricanAmerican, float sngPercentageHouseholdsPovertyAfricanAmerican);
+float HouseholdsPovertyHispanic(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedHispanic, int intHouseholdsPovertyHispanic, float sngPercentageHouseholdsPovertyHispanic);
+float HouseholdsPovertyAsian(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedAsian, int intHouseholdsPovertyAsian, float sngPercentageHouseholdsPovertyAsian);
+float HouseholdsPovertyOther(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedOther, int intHouseholdsPovertyOther, float sngPercentageHouseholdsPovertyOther);
 
 // String Functions
 int StringLength(char strSource[]);
@@ -202,18 +202,18 @@ void main()
 		if (chrSelection == 'A' || chrSelection == 'a')
 		{
 			// calculate and print total houses surveyed
-			intTotalHousesSurveyed = TotalHouseholdsSurveyed(audtSurveyList, intTotalHousesSurveyed);
+			intTotalHousesSurveyed = TotalHouseholdsSurveyed(audtSurveyList, sizeArray, intTotalHousesSurveyed);
 			printf("Total houses surveyed: %d\n\n", intTotalHousesSurveyed);
 		}
 		else if (chrSelection == 'B' || chrSelection == 'b')
 		{
 			// calculate and print total households surveyed by county and state
-			intHousesSurveyedOhio = TotalHouseholdsSurveyedOhio(audtSurveyList, intHousesSurveyedOhio);
-			intHousesSurveyedHamilton = TotalHouseholdsSurveyedHamilton(audtSurveyList, intHousesSurveyedHamilton);
-			intHousesSurveyedButler = TotalHouseholdsSurveyedButler(audtSurveyList, intHousesSurveyedButler);
-			intHousesSurveyedKentucky = TotalHouseholdsSurveyedKentucky(audtSurveyList, intHousesSurveyedKentucky);
-			intHousesSurveyedBoone = TotalHouseholdsSurveyedBoone(audtSurveyList, intHousesSurveyedBoone);
-			intHousesSurveyedKenton = TotalHouseholdsSurveyedKenton(audtSurveyList, intHousesSurveyedKenton);
+			intHousesSurveyedOhio = TotalHouseholdsSurveyedOhio(audtSurveyList, sizeArray, intHousesSurveyedOhio);
+			intHousesSurveyedHamilton = TotalHouseholdsSurveyedHamilton(audtSurveyList, sizeArray, intHousesSurveyedHamilton);
+			intHousesSurveyedButler = TotalHouseholdsSurveyedButler(audtSurveyList, sizeArray, intHousesSurveyedButler);
+			intHousesSurveyedKentucky = TotalHouseholdsSurveyedKentucky(audtSurveyList, sizeArray, intHousesSurveyedKentucky);
+			intHousesSurveyedBoone = TotalHouseholdsSurveyedBoone(audtSurveyList, sizeArray, intHousesSurveyedBoone);
+			intHousesSurveyedKenton = TotalHouseholdsSurveyedKenton(audtSurveyList, sizeArray, intHousesSurveyedKenton);
 
 			printf("Total houses surveyed per county and state\n\n");
 			printf("Ohio:			%d\n", intHousesSurveyedOhio);
@@ -226,11 +226,11 @@ void main()
 		else if (chrSelection == 'C' || chrSelection == 'c')
 		{
 			// calculate and print total households surveyed by race
-			intHousesSurveyedCaucasian = TotalHouseholdsSurveyedCaucasian(audtSurveyList, intHousesSurveyedCaucasian);
-			intHousesSurveyedAfricanAmerican = TotalHouseholdsSurveyedAfricanAmerican(audtSurveyList, intHousesSurveyedAfricanAmerican);
-			intHousesSurveyedHispanic = TotalHouseholdsSurveyedHispanic(audtSurveyList, intHousesSurveyedHispanic);
-			intHousesSurveyedAsian = TotalHouseholdsSurveyedAsian(audtSurveyList, intHousesSurveyedAsian);
-			intHousesSurveyedOther = TotalHouseholdsSurveyedOther(audtSurveyList, intHousesSurveyedOther);
+			intHousesSurveyedCaucasian = TotalHouseholdsSurveyedCaucasian(audtSurveyList, sizeArray, intHousesSurveyedCaucasian);
+			intHousesSurveyedAfricanAmerican = TotalHouseholdsSurveyedAfricanAmerican(audtSurveyList, sizeArray, intHousesSurveyedAfricanAmerican);
+			intHousesSurveyedHispanic = TotalHouseholdsSurveyedHispanic(audtSurveyList, sizeArray, intHousesSurveyedHispanic);
+			intHousesSurveyedAsian = TotalHouseholdsSurveyedAsian(audtSurveyList, sizeArray, intHousesSurveyedAsian);
+			intHousesSurveyedOther = TotalHouseholdsSurveyedOther(audtSurveyList, sizeArray, intHousesSurveyedOther);
 
 			printf("Total houses surveyed by race\n\n");
 			printf("Caucasian:				%d\n", intHousesSurveyedCaucasian);
@@ -243,7 +243,7 @@ void main()
 		else if (chrSelection == 'D' || chrSelection == 'd')
 		{
 			// calculate and print average household income for all households surveyed
-			sngTotalAverageIncome = TotalAverageIncome(audtSurveyList, sngTotalAverageIncome, intTotalHousesSurveyed, sngTotalIncome);
+			sngTotalAverageIncome = TotalAverageIncome(audtSurveyList, sizeArray, sngTotalAverageIncome, intTotalHousesSurveyed, sngTotalIncome);
 
 			printf("Average household income: $%.2f\n\n", sngTotalAverageIncome);
 
@@ -251,12 +251,12 @@ void main()
 		else if (chrSelection == 'E' || chrSelection == 'e')
 		{
 			// calculate and print average household income per county and state
-			sngAverageIncomeOhio = AverageIncomeOhio(audtSurveyList, sngAverageIncomeOhio, intHousesSurveyedOhio, sngTotalIncomeOhio);
-			sngAverageIncomeHamilton = AverageIncomeHamilton(audtSurveyList, sngAverageIncomeHamilton, intHousesSurveyedHamilton, sngTotalIncomeHamilton);
-			sngAverageIncomeButler = AverageIncomeButler(audtSurveyList, sngAverageIncomeButler, intHousesSurveyedButler, sngTotalIncomeButler);
-			sngAverageIncomeKentucky = AverageIncomeKentucky(audtSurveyList, sngAverageIncomeKentucky, intHousesSurveyedKentucky, sngTotalIncomeKentucky);
-			sngAverageIncomeBoone = AverageIncomeBoone(audtSurveyList, sngAverageIncomeBoone, intHousesSurveyedBoone, sngTotalIncomeBoone);
-			sngAverageIncomeKenton = AverageIncomeKenton(audtSurveyList, sngAverageIncomeKenton, intHousesSurveyedKenton, sngTotalIncomeKenton);
+			sngAverageIncomeOhio = AverageIncomeOhio(audtSurveyList, sizeArray, sngAverageIncomeOhio, intHousesSurveyedOhio, sngTotalIncomeOhio);
+			sngAverageIncomeHamilton = AverageIncomeHamilton(audtSurveyList, sizeArray, sngAverageIncomeHamilton, intHousesSurveyedHamilton, sngTotalIncomeHamilton);
+			sngAverageIncomeButler = AverageIncomeButler(audtSurveyList, sizeArray, sngAverageIncomeButler, intHousesSurveyedButler, sngTotalIncomeButler);
+			sngAverageIncomeKentucky = AverageIncomeKentucky(audtSurveyList, sizeArray, sngAverageIncomeKentucky, intHousesSurveyedKentucky, sngTotalIncomeKentucky);
+			sngAverageIncomeBoone = AverageIncomeBoone(audtSurveyList, sizeArray, sngAverageIncomeBoone, intHousesSurveyedBoone, sngTotalIncomeBoone);
+			sngAverageIncomeKenton = AverageIncomeKenton(audtSurveyList, sizeArray, sngAverageIncomeKenton, intHousesSurveyedKenton, sngTotalIncomeKenton);
 
 			printf("Average household income per county and state\n\n");
 			printf("Ohio:			$%.2f\n", sngAverageIncomeOhio);
@@ -270,11 +270,11 @@ void main()
 		else if (chrSelection == 'F' || chrSelection == 'f')
 		{
 			// calculate and print average household income per race
-			sngAverageIncomeCaucasian = AverageIncomeCaucasian(audtSurveyList, sngAverageIncomeCaucasian, intHousesSurveyedCaucasian, sngTotalIncomeCaucasian);
-			sngAverageIncomeAfricanAmerican = AverageIncomeAfricanAmerican(audtSurveyList, sngAverageIncomeAfricanAmerican, intHousesSurveyedAfricanAmerican, sngTotalIncomeAfricanAmerican);
-			sngAverageIncomeHispanic = AverageIncomeHispanic(audtSurveyList, sngAverageIncomeHispanic, intHousesSurveyedHispanic, sngTotalIncomeHispanic);
-			sngAverageIncomeAsian = AverageIncomeAsian(audtSurveyList, sngAverageIncomeAsian, intHousesSurveyedAsian, sngTotalIncomeAsian);
-			sngAverageIncomeOther = AverageIncomeOther(audtSurveyList, sngAverageIncomeOther, intHousesSurveyedOther, sngTotalIncomeOther);
+			sngAverageIncomeCaucasian = AverageIncomeCaucasian(audtSurveyList, sizeArray, sngAverageIncomeCaucasian, intHousesSurveyedCaucasian, sngTotalIncomeCaucasian);
+			sngAverageIncomeAfricanAmerican = AverageIncomeAfricanAmerican(audtSurveyList, sizeArray, sngAverageIncomeAfricanAmerican, intHousesSurveyedAfricanAmerican, sngTotalIncomeAfricanAmerican);
+			sngAverageIncomeHispanic = AverageIncomeHispanic(audtSurveyList, sizeArray, sngAverageIncomeHispanic, intHousesSurveyedHispanic, sngTotalIncomeHispanic);
+			sngAverageIncomeAsian = AverageIncomeAsian(audtSurveyList, sizeArray, sngAverageIncomeAsian, intHousesSurveyedAsian, sngTotalIncomeAsian);
+			sngAverageIncomeOther = AverageIncomeOther(audtSurveyList, sizeArray, sngAverageIncomeOther, intHousesSurveyedOther, sngTotalIncomeOther);
 
 			printf("Average household income per race\n\n");
 			printf("Caucasian:				$%.2f\n", sngAverageIncomeCaucasian);
@@ -287,45 +287,45 @@ void main()
 		else if (chrSelection == 'G' || chrSelection == 'g')
 		{
 			// calculate and print total households below poverty line
-			sngPercentageHouseholdsPoverty = TotalHouseholdsPoverty(audtSurveyList, intTotalHousesSurveyed, intTotalHouseholdsPoverty, sngPercentageHouseholdsPoverty);
+			sngPercentageHouseholdsPoverty = TotalHouseholdsPoverty(audtSurveyList, sizeArray, intTotalHousesSurveyed, intTotalHouseholdsPoverty, sngPercentageHouseholdsPoverty);
 
-			printf("Percentage of total households below poverty: %.2f %\n\n", sngPercentageHouseholdsPoverty);
+			printf("Percentage of total households below poverty: %.2f %%\n\n", sngPercentageHouseholdsPoverty);
 
 		}
 		else if (chrSelection == 'H' || chrSelection == 'h')
 		{
 			// calculate and print households below poverty per county and state
-			sngPercentageHouseholdsPovertyOhio = HouseholdsPovertyOhio(audtSurveyList, intHousesSurveyedOhio, intHouseholdsPovertyOhio, sngPercentageHouseholdsPovertyOhio);
-			sngPercentageHouseholdsPovertyHamilton = HouseholdsPovertyHamilton(audtSurveyList, intHousesSurveyedHamilton, intHouseholdsPovertyHamilton, sngPercentageHouseholdsPovertyHamilton);
-			sngPercentageHouseholdsPovertyButler = HouseholdsPovertyButler(audtSurveyList, intHousesSurveyedButler, intHouseholdsPovertyButler, sngPercentageHouseholdsPovertyButler);
-			sngPercentageHouseholdsPovertyKentucky = HouseholdsPovertyKentucky(audtSurveyList, intHousesSurveyedKentucky, intHouseholdsPovertyKentucky, sngPercentageHouseholdsPovertyKentucky);
-			sngPercentageHouseholdsPovertyBoone = HouseholdsPovertyBoone(audtSurveyList, intHousesSurveyedBoone, intHouseholdsPovertyBoone, sngPercentageHouseholdsPovertyBoone);
-			sngPercentageHouseholdsPovertyKenton = HouseholdsPovertyKenton(audtSurveyList, intHousesSurveyedKenton, intHouseholdsPovertyKenton, sngPercentageHouseholdsPovertyKenton);
+			sngPercentageHouseholdsPovertyOhio = HouseholdsPovertyOhio(audtSurveyList, sizeArray, intHousesSurveyedOhio, intHouseholdsPovertyOhio, sngPercentageHouseholdsPovertyOhio);
+			sngPercentageHouseholdsPovertyHamilton = HouseholdsPovertyHamilton(audtSurveyList, sizeArray, intHousesSurveyedHamilton, intHouseholdsPovertyHamilton, sngPercentageHouseholdsPovertyHamilton);
+			sngPercentageHouseholdsPovertyButler = HouseholdsPovertyButler(audtSurveyList, sizeArray, intHousesSurveyedButler, intHouseholdsPovertyButler, sngPercentageHouseholdsPovertyButler);
+			sngPercentageHouseholdsPovertyKentucky = HouseholdsPovertyKentucky(audtSurveyList, sizeArray, intHousesSurveyedKentucky, intHouseholdsPovertyKentucky, sngPercentageHouseholdsPovertyKentucky);
+			sngPercentageHouseholdsPovertyBoone = HouseholdsPovertyBoone(audtSurveyList, sizeArray, intHousesSurveyedBoone, intHouseholdsPovertyBoone, sngPercentageHouseholdsPovertyBoone);
+			sngPercentageHouseholdsPovertyKenton = HouseholdsPovertyKenton(audtSurveyList, sizeArray, intHousesSurveyedKenton, intHouseholdsPovertyKenton, sngPercentageHouseholdsPovertyKenton);
 
 			printf("Percentage of households below poverty per county and state\n\n");
-			printf("Ohio:			%.2f %\n", sngPercentageHouseholdsPovertyOhio);
-			printf("\tHamilton:	%.2f %\n", sngPercentageHouseholdsPovertyHamilton);
-			printf("\tButler:		%.2f %\n\n", sngPercentageHouseholdsPovertyButler);
-			printf("Kentucky:		%.2f %\n", sngPercentageHouseholdsPovertyKentucky);
-			printf("\tBoone:		%.2f %\n", sngPercentageHouseholdsPovertyBoone);
-			printf("\tKenton:		%.2f %\n\n", sngPercentageHouseholdsPovertyKenton);
+			printf("Ohio:			%.2f %%\n", sngPercentageHouseholdsPovertyOhio);
+			printf("\tHamilton:	%.2f %%\n", sngPercentageHouseholdsPovertyHamilton);
+			printf("\tButler:		%.2f %%\n\n", sngPercentageHouseholdsPovertyButler);
+			printf("Kentucky:		%.2f %%\n", sngPercentageHouseholdsPovertyKentucky);
+			printf("\tBoone:		%.2f %%\n", sngPercentageHouseholdsPovertyBoone);
+			printf("\tKenton:		%.2f %%\n\n", sngPercentageHouseholdsPovertyKenton);
 
 		}
 		else if (chrSelection == 'I' || chrSelection == 'i')
 		{
 			// calculate and print households below poverty per race
-			sngPercentageHouseholdsPovertyCaucasian = HouseholdsPovertyCaucasian(audtSurveyList, intHousesSurveyedCaucasian, intHouseholdsPovertyCaucasian, sngPercentageHouseholdsPovertyCaucasian);
-			sngPercentageHouseholdsPovertyAfricanAmerican = HouseholdsPovertyAfricanAmerican(audtSurveyList, intHousesSurveyedAfricanAmerican, intHouseholdsPovertyAfricanAmerican, sngPercentageHouseholdsPovertyAfricanAmerican);
-			sngPercentageHouseholdsPovertyHispanic = HouseholdsPovertyHispanic(audtSurveyList, intHousesSurveyedHispanic, intHouseholdsPovertyHispanic, sngPercentageHouseholdsPovertyHispanic);
-			sngPercentageHouseholdsPovertyAsian = HouseholdsPovertyAsian(audtSurveyList, intHousesSurveyedAsian, intHouseholdsPovertyAsian, sngPercentageHouseholdsPovertyAsian);
-			sngPercentageHouseholdsPovertyOther = HouseholdsPovertyOther(audtSurveyList, intHousesSurveyedOther, intHouseholdsPovertyOther, sngPercentageHouseholdsPovertyOther);
+			sngPercentageHouseholdsPovertyCaucasian = HouseholdsPovertyCaucasian(audtSurveyList, sizeArray, intHousesSurveyedCaucasian, intHouseholdsPovertyCaucasian, sngPercentageHouseholdsPovertyCaucasian);
+			sngPercentageHouseholdsPovertyAfricanAmerican = HouseholdsPovertyAfricanAmerican(audtSurveyList, sizeArray, intHousesSurveyedAfricanAmerican, intHouseholdsPovertyAfricanAmerican, sngPercentageHouseholdsPovertyAfricanAmerican);
+			sngPercentageHouseholdsPovertyHispanic = HouseholdsPovertyHispanic(audtSurveyList, sizeArray, intHousesSurveyedHispanic, intHouseholdsPovertyHispanic, sngPercentageHouseholdsPovertyHispanic);
+			sngPercentageHouseholdsPovertyAsian = HouseholdsPovertyAsian(audtSurveyList, sizeArray, intHousesSurveyedAsian, intHouseholdsPovertyAsian, sngPercentageHouseholdsPovertyAsian);
+			sngPercentageHouseholdsPovertyOther = HouseholdsPovertyOther(audtSurveyList, sizeArray, intHousesSurveyedOther, intHouseholdsPovertyOther, sngPercentageHouseholdsPovertyOther);
 
 			printf("Households below poverty per race\n\n");
-			printf("Caucasian:				%.2f %\n", sngPercentageHouseholdsPovertyCaucasian);
-			printf("African American:		\t%.2f %\n", sngPercentageHouseholdsPovertyAfricanAmerican);
-			printf("Hispanic:				%.2f %\n", sngPercentageHouseholdsPovertyHispanic);
-			printf("Asian:					%.2f %\n", sngPercentageHouseholdsPovertyAsian);
-			printf("Other:					%.2f %\n\n", sngPercentageHouseholdsPovertyOther);
+			printf("Caucasian:				%.2f %%\n", sngPercentageHouseholdsPovertyCaucasian);
+			printf("African American:		\t%.2f %%\n", sngPercentageHouseholdsPovertyAfricanAmerican);
+			printf("Hispanic:				%.2f %%\n", sngPercentageHouseholdsPovertyHispanic);
+			printf("Asian:					%.2f %%\n", sngPercentageHouseholdsPovertyAsian);
+			printf("Other:					%.2f %%\n\n", sngPercentageHouseholdsPovertyOther);
 
 		}
 		else if (chrSelection == 'X' || chrSelection == 'x')
@@ -361,12 +361,12 @@ void main()
 // Name: TotalHouseholdsSurveyed
 // Abstract: Calculates total households surveyed
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyed(udtSurveyType audtSurveyList[], int intTotalHousesSurveyed)
+int TotalHouseholdsSurveyed(udtSurveyType audtSurveyList[], size_t sizeArray, int intTotalHousesSurveyed)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList); intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		// if household number is greater than 0 count house
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber > 0)
@@ -389,12 +389,12 @@ int TotalHouseholdsSurveyed(udtSurveyType audtSurveyList[], int intTotalHousesSu
 // Name: TotalHouseholdsSurveyedOhio
 // Abstract: Calculates total households surveyed for ohio
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyedOhio(udtSurveyType audtSurveyList[], int intHousesSurveyedOhio)
+int TotalHouseholdsSurveyedOhio(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedOhio)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strState, "Ohio") == 0)
 		{
@@ -417,12 +417,12 @@ int TotalHouseholdsSurveyedOhio(udtSurveyType audtSurveyList[], int intHousesSur
 // Name: TotalHouseholdsSurveyedHamilton
 // Abstract: Calculates total households surveyed for hamilton
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyedHamilton(udtSurveyType audtSurveyList[], int intHousesSurveyedHamilton)
+int TotalHouseholdsSurveyedHamilton(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedHamilton)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strCounty, "Hamilton") == 0)
 		{
@@ -446,12 +446,12 @@ int TotalHouseholdsSurveyedHamilton(udtSurveyType audtSurveyList[], int intHouse
 // Name: TotalHouseholdsSurveyedButler
 // Abstract: Calculates total households surveyed for butler
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyedButler(udtSurveyType audtSurveyList[], int intHousesSurveyedButler)
+int TotalHouseholdsSurveyedButler(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedButler)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strCounty, "Butler") == 0)
 		{
@@ -475,12 +475,12 @@ int TotalHouseholdsSurveyedButler(udtSurveyType audtSurveyList[], int intHousesS
 // Name: TotalHouseholdsSurveyedKentucky
 // Abstract: Calculates total households surveyed for kentucky
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyedKentucky(udtSurveyType audtSurveyList[], int intHousesSurveyedKentucky)
+int TotalHouseholdsSurveyedKentucky(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedKentucky)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strState, "Kentucky") == 0)
 		{
@@ -504,12 +504,12 @@ int TotalHouseholdsSurveyedKentucky(udtSurveyType audtSurveyList[], int intHouse
 // Name: TotalHouseholdsSurveyedBoone
 // Abstract: Calculates total households surveyed for boone
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyedBoone(udtSurveyType audtSurveyList[], int intHousesSurveyedBoone)
+int TotalHouseholdsSurveyedBoone(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedBoone)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strCounty, "Boone") == 0)
 		{
@@ -533,12 +533,12 @@ int TotalHouseholdsSurveyedBoone(udtSurveyType audtSurveyList[], int intHousesSu
 // Name: TotalHouseholdsSurveyedKenton
 // Abstract: Calculates total households surveyed for boone
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyedKenton(udtSurveyType audtSurveyList[], int intHousesSurveyedKenton)
+int TotalHouseholdsSurveyedKenton(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedKenton)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strCounty, "Kenton") == 0)
 		{
@@ -562,12 +562,12 @@ int TotalHouseholdsSurveyedKenton(udtSurveyType audtSurveyList[], int intHousesS
 // Name: TotalHouseholdsSurveyedCaucasian
 // Abstract: Calculates total households surveyed for caucasian
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyedCaucasian(udtSurveyType audtSurveyList[], int intHousesSurveyedCaucasian)
+int TotalHouseholdsSurveyedCaucasian(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedCaucasian)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strRace, "Caucasian") == 0)
 		{
@@ -591,12 +591,12 @@ int TotalHouseholdsSurveyedCaucasian(udtSurveyType audtSurveyList[], int intHous
 // Name: TotalHouseholdsSurveyedAfricanAmerican
 // Abstract: Calculates total households surveyed for african american
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyedAfricanAmerican(udtSurveyType audtSurveyList[], int intHousesSurveyedAfricanAmerican)
+int TotalHouseholdsSurveyedAfricanAmerican(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedAfricanAmerican)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strRace, "African American") == 0)
 		{
@@ -620,12 +620,12 @@ int TotalHouseholdsSurveyedAfricanAmerican(udtSurveyType audtSurveyList[], int i
 // Name: TotalHouseholdsSurveyedHispanic
 // Abstract: Calculates total households surveyed for hispanic
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyedHispanic(udtSurveyType audtSurveyList[], int intHousesSurveyedHispanic)
+int TotalHouseholdsSurveyedHispanic(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedHispanic)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strRace, "Hispanic") == 0)
 		{
@@ -649,12 +649,12 @@ int TotalHouseholdsSurveyedHispanic(udtSurveyType audtSurveyList[], int intHouse
 // Name: TotalHouseholdsSurveyedAsian
 // Abstract: Calculates total households surveyed for asian
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyedAsian(udtSurveyType audtSurveyList[], int intHousesSurveyedAsian)
+int TotalHouseholdsSurveyedAsian(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedAsian)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strRace, "Asian") == 0)
 		{
@@ -678,12 +678,12 @@ int TotalHouseholdsSurveyedAsian(udtSurveyType audtSurveyList[], int intHousesSu
 // Name: TotalHouseholdsSurveyedOther
 // Abstract: Calculates total households surveyed for other
 // --------------------------------------------------------------------------------
-int TotalHouseholdsSurveyedOther(udtSurveyType audtSurveyList[], int intHousesSurveyedOther)
+int TotalHouseholdsSurveyedOther(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedOther)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strRace, "Other") == 0)
 		{
@@ -707,14 +707,14 @@ int TotalHouseholdsSurveyedOther(udtSurveyType audtSurveyList[], int intHousesSu
 // Name: TotalAverageIncome
 // Abstract: Calculates average income for all households surveyed 
 // --------------------------------------------------------------------------------
-float TotalAverageIncome(udtSurveyType audtSurveyList[], float sngTotalAverageIncome, int intTotalHousesSurveyed, float sngTotalIncome)
+float TotalAverageIncome(udtSurveyType audtSurveyList[], size_t sizeArray, float sngTotalAverageIncome, int intTotalHousesSurveyed, float sngTotalIncome)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intTotalHousesSurveyed = TotalHouseholdsSurveyed(audtSurveyList, intTotalHousesSurveyed);
+	intTotalHousesSurveyed = TotalHouseholdsSurveyed(audtSurveyList, sizeArray, intTotalHousesSurveyed);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0)
 		{
@@ -748,14 +748,14 @@ float TotalAverageIncome(udtSurveyType audtSurveyList[], float sngTotalAverageIn
 // Name: AverageIncomeOhio
 // Abstract: Calculates average income for ohio households
 // --------------------------------------------------------------------------------
-float AverageIncomeOhio(udtSurveyType audtSurveyList[], float sngAverageIncomeOhio, int intHousesSurveyedOhio, float sngTotalIncomeOhio)
+float AverageIncomeOhio(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeOhio, int intHousesSurveyedOhio, float sngTotalIncomeOhio)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedOhio = TotalHouseholdsSurveyedOhio(audtSurveyList, intHousesSurveyedOhio);
+	intHousesSurveyedOhio = TotalHouseholdsSurveyedOhio(audtSurveyList, sizeArray, intHousesSurveyedOhio);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0 && strcmp(audtSurveyList[intSurveyIndex].strState, "Ohio") == 0)
 		{
@@ -789,14 +789,14 @@ float AverageIncomeOhio(udtSurveyType audtSurveyList[], float sngAverageIncomeOh
 // Name: AverageIncomeHamilton
 // Abstract: Calculates average income for hamilton households
 // --------------------------------------------------------------------------------
-float AverageIncomeHamilton(udtSurveyType audtSurveyList[], float sngAverageIncomeHamilton, int intHousesSurveyedHamilton, float sngTotalIncomeHamilton)
+float AverageIncomeHamilton(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeHamilton, int intHousesSurveyedHamilton, float sngTotalIncomeHamilton)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedHamilton = TotalHouseholdsSurveyedHamilton(audtSurveyList, intHousesSurveyedHamilton);
+	intHousesSurveyedHamilton = TotalHouseholdsSurveyedHamilton(audtSurveyList, sizeArray, intHousesSurveyedHamilton);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0 && strcmp(audtSurveyList[intSurveyIndex].strCounty, "Hamilton") == 0)
 		{
@@ -830,14 +830,14 @@ float AverageIncomeHamilton(udtSurveyType audtSurveyList[], float sngAverageInco
 // Name: AverageIncomeButler
 // Abstract: Calculates average income for butler households
 // --------------------------------------------------------------------------------
-float AverageIncomeButler(udtSurveyType audtSurveyList[], float sngAverageIncomeButler, int intHousesSurveyedButler, float sngTotalIncomeButler)
+float AverageIncomeButler(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeButler, int intHousesSurveyedButler, float sngTotalIncomeButler)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedButler = TotalHouseholdsSurveyedButler(audtSurveyList, intHousesSurveyedButler);
+	intHousesSurveyedButler = TotalHouseholdsSurveyedButler(audtSurveyList, sizeArray, intHousesSurveyedButler);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0 && strcmp(audtSurveyList[intSurveyIndex].strCounty, "Butler") == 0)
 		{
@@ -871,14 +871,14 @@ float AverageIncomeButler(udtSurveyType audtSurveyList[], float sngAverageIncome
 // Name: AverageIncomeKentucky
 // Abstract: Calculates average income for kentucky households
 // --------------------------------------------------------------------------------
-float AverageIncomeKentucky(udtSurveyType audtSurveyList[], float sngAverageIncomeKentucky, int intHousesSurveyedKentucky, float sngTotalIncomeKentucky)
+float AverageIncomeKentucky(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeKentucky, int intHousesSurveyedKentucky, float sngTotalIncomeKentucky)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedKentucky = TotalHouseholdsSurveyedKentucky(audtSurveyList, intHousesSurveyedKentucky);
+	intHousesSurveyedKentucky = TotalHouseholdsSurveyedKentucky(audtSurveyList, sizeArray, intHousesSurveyedKentucky);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0 && strcmp(audtSurveyList[intSurveyIndex].strState, "Kentucky") == 0)
 		{
@@ -912,14 +912,14 @@ float AverageIncomeKentucky(udtSurveyType audtSurveyList[], float sngAverageInco
 // Name: AverageIncomeBoone
 // Abstract: Calculates average income for boone households
 // --------------------------------------------------------------------------------
-float AverageIncomeBoone(udtSurveyType audtSurveyList[], float sngAverageIncomeBoone, int intHousesSurveyedBoone, float sngTotalIncomeBoone)
+float AverageIncomeBoone(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeBoone, int intHousesSurveyedBoone, float sngTotalIncomeBoone)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedBoone = TotalHouseholdsSurveyedBoone(audtSurveyList, intHousesSurveyedBoone);
+	intHousesSurveyedBoone = TotalHouseholdsSurveyedBoone(audtSurveyList, sizeArray, intHousesSurveyedBoone);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0 && strcmp(audtSurveyList[intSurveyIndex].strCounty, "Boone") == 0)
 		{
@@ -953,14 +953,14 @@ float AverageIncomeBoone(udtSurveyType audtSurveyList[], float sngAverageIncomeB
 // Name: AverageIncomeKenton
 // Abstract: Calculates average income for kenton households
 // --------------------------------------------------------------------------------
-float AverageIncomeKenton(udtSurveyType audtSurveyList[], float sngAverageIncomeKenton, int intHousesSurveyedKenton, float sngTotalIncomeKenton)
+float AverageIncomeKenton(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeKenton, int intHousesSurveyedKenton, float sngTotalIncomeKenton)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedKenton = TotalHouseholdsSurveyedKenton(audtSurveyList, intHousesSurveyedKenton);
+	intHousesSurveyedKenton = TotalHouseholdsSurveyedKenton(audtSurveyList, sizeArray, intHousesSurveyedKenton);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0 && strcmp(audtSurveyList[intSurveyIndex].strCounty, "Kenton") == 0)
 		{
@@ -993,14 +993,14 @@ float AverageIncomeKenton(udtSurveyType audtSurveyList[], float sngAverageIncome
 // Name: AverageIncomeCaucasian
 // Abstract: Calculates average income for caucasian households
 // --------------------------------------------------------------------------------
-float AverageIncomeCaucasian(udtSurveyType audtSurveyList[], float sngAverageIncomeCaucasian, int intHousesSurveyedCaucasian, float sngTotalIncomeCaucasian)
+float AverageIncomeCaucasian(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeCaucasian, int intHousesSurveyedCaucasian, float sngTotalIncomeCaucasian)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedCaucasian = TotalHouseholdsSurveyedCaucasian(audtSurveyList, intHousesSurveyedCaucasian);
+	intHousesSurveyedCaucasian = TotalHouseholdsSurveyedCaucasian(audtSurveyList, sizeArray, intHousesSurveyedCaucasian);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0 && strcmp(audtSurveyList[intSurveyIndex].strRace, "Caucasian") == 0)
 		{
@@ -1033,14 +1033,14 @@ float AverageIncomeCaucasian(udtSurveyType audtSurveyList[], float sngAverageInc
 // Name: AverageIncomeAfricanAmerican
 // Abstract: Calculates average income for african american households
 // --------------------------------------------------------------------------------
-float AverageIncomeAfricanAmerican(udtSurveyType audtSurveyList[], float sngAverageIncomeAfricanAmerican, int intHousesSurveyedAfricanAmerican, float sngTotalIncomeAfricanAmerican)
+float AverageIncomeAfricanAmerican(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeAfricanAmerican, int intHousesSurveyedAfricanAmerican, float sngTotalIncomeAfricanAmerican)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedAfricanAmerican = TotalHouseholdsSurveyedAfricanAmerican(audtSurveyList, intHousesSurveyedAfricanAmerican);
+	intHousesSurveyedAfricanAmerican = TotalHouseholdsSurveyedAfricanAmerican(audtSurveyList, sizeArray, intHousesSurveyedAfricanAmerican);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0 && strcmp(audtSurveyList[intSurveyIndex].strRace, "African American") == 0)
 		{
@@ -1074,14 +1074,14 @@ float AverageIncomeAfricanAmerican(udtSurveyType audtSurveyList[], float sngAver
 // Name: AverageIncomeHispanic
 // Abstract: Calculates average income for hispanic households
 // --------------------------------------------------------------------------------
-float AverageIncomeHispanic(udtSurveyType audtSurveyList[], float sngAverageIncomeHispanic, int intHousesSurveyedHispanic, float sngTotalIncomeHispanic)
+float AverageIncomeHispanic(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeHispanic, int intHousesSurveyedHispanic, float sngTotalIncomeHispanic)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedHispanic = TotalHouseholdsSurveyedHispanic(audtSurveyList, intHousesSurveyedHispanic);
+	intHousesSurveyedHispanic = TotalHouseholdsSurveyedHispanic(audtSurveyList, sizeArray, intHousesSurveyedHispanic);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0 && strcmp(audtSurveyList[intSurveyIndex].strRace, "Hispanic") == 0)
 		{
@@ -1116,14 +1116,14 @@ float AverageIncomeHispanic(udtSurveyType audtSurveyList[], float sngAverageInco
 // Name: AverageIncomeAsian
 // Abstract: Calculates average income for asian households
 // --------------------------------------------------------------------------------
-float AverageIncomeAsian(udtSurveyType audtSurveyList[], float sngAverageIncomeAsian, int intHousesSurveyedAsian, float sngTotalIncomeAsian)
+float AverageIncomeAsian(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeAsian, int intHousesSurveyedAsian, float sngTotalIncomeAsian)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedAsian = TotalHouseholdsSurveyedAsian(audtSurveyList, intHousesSurveyedAsian);
+	intHousesSurveyedAsian = TotalHouseholdsSurveyedAsian(audtSurveyList, sizeArray, intHousesSurveyedAsian);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0 && strcmp(audtSurveyList[intSurveyIndex].strRace, "Asian") == 0)
 		{
@@ -1157,14 +1157,14 @@ float AverageIncomeAsian(udtSurveyType audtSurveyList[], float sngAverageIncomeA
 // Name: AverageIncomeOther
 // Abstract: Calculates average income for other households
 // --------------------------------------------------------------------------------
-float AverageIncomeOther(udtSurveyType audtSurveyList[], float sngAverageIncomeOther, int intHousesSurveyedOther, float sngTotalIncomeOther)
+float AverageIncomeOther(udtSurveyType audtSurveyList[], size_t sizeArray, float sngAverageIncomeOther, int intHousesSurveyedOther, float sngTotalIncomeOther)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedOther = TotalHouseholdsSurveyedOther(audtSurveyList, intHousesSurveyedOther);
+	intHousesSurveyedOther = TotalHouseholdsSurveyedOther(audtSurveyList, sizeArray, intHousesSurveyedOther);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].sngIncome > 0 && strcmp(audtSurveyList[intSurveyIndex].strRace, "Other") == 0)
 		{
@@ -1198,14 +1198,14 @@ float AverageIncomeOther(udtSurveyType audtSurveyList[], float sngAverageIncomeO
 // Name: TotalHouseholdsPoverty
 // Abstract: Calculates percentage of total households surveyed in poverty
 // --------------------------------------------------------------------------------
-float TotalHouseholdsPoverty(udtSurveyType audtSurveyList[], int intTotalHousesSurveyed, int intTotalHouseholdsPoverty, float sngPercentageHouseholdsPoverty)
+float TotalHouseholdsPoverty(udtSurveyType audtSurveyList[], size_t sizeArray, int intTotalHousesSurveyed, int intTotalHouseholdsPoverty, float sngPercentageHouseholdsPoverty)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intTotalHousesSurveyed = TotalHouseholdsSurveyed(audtSurveyList, intTotalHousesSurveyed);
+	intTotalHousesSurveyed = TotalHouseholdsSurveyed(audtSurveyList, sizeArray, intTotalHousesSurveyed);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1)
 		{
@@ -1267,14 +1267,14 @@ float TotalHouseholdsPoverty(udtSurveyType audtSurveyList[], int intTotalHousesS
 // Name: HouseholdsPovertyOhio
 // Abstract: Calculates percentage of ohio households surveyed in poverty
 // --------------------------------------------------------------------------------
-float HouseholdsPovertyOhio(udtSurveyType audtSurveyList[], int intHousesSurveyedOhio, int intHouseholdsPovertyOhio, float sngPercentageHouseholdsPovertyOhio)
+float HouseholdsPovertyOhio(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedOhio, int intHouseholdsPovertyOhio, float sngPercentageHouseholdsPovertyOhio)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedOhio = TotalHouseholdsSurveyedOhio(audtSurveyList, intHousesSurveyedOhio);
+	intHousesSurveyedOhio = TotalHouseholdsSurveyedOhio(audtSurveyList, sizeArray, intHousesSurveyedOhio);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1
 			&& strcmp(audtSurveyList[intSurveyIndex].strState, "Ohio") == 0)
@@ -1341,14 +1341,14 @@ float HouseholdsPovertyOhio(udtSurveyType audtSurveyList[], int intHousesSurveye
 // Name: HouseholdsPovertyHamilton
 // Abstract: Calculates percentage of hamilton households surveyed in poverty
 // --------------------------------------------------------------------------------
-float HouseholdsPovertyHamilton(udtSurveyType audtSurveyList[], int intHousesSurveyedHamilton, int intHouseholdsPovertyHamilton, float sngPercentageHouseholdsPovertyHamilton)
+float HouseholdsPovertyHamilton(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedHamilton, int intHouseholdsPovertyHamilton, float sngPercentageHouseholdsPovertyHamilton)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedHamilton = TotalHouseholdsSurveyedHamilton(audtSurveyList, intHousesSurveyedHamilton);
+	intHousesSurveyedHamilton = TotalHouseholdsSurveyedHamilton(audtSurveyList, sizeArray, intHousesSurveyedHamilton);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1
 			&& strcmp(audtSurveyList[intSurveyIndex].strCounty, "Hamilton") == 0)
@@ -1415,14 +1415,14 @@ float HouseholdsPovertyHamilton(udtSurveyType audtSurveyList[], int intHousesSur
 // Name: HouseholdsPovertyButler
 // Abstract: Calculates percentage of butler households surveyed in poverty
 // --------------------------------------------------------------------------------
-float HouseholdsPovertyButler(udtSurveyType audtSurveyList[], int intHousesSurveyedButler, int intHouseholdsPovertyButler, float sngPercentageHouseholdsPovertyButler)
+float HouseholdsPovertyButler(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedButler, int intHouseholdsPovertyButler, float sngPercentageHouseholdsPovertyButler)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedButler = TotalHouseholdsSurveyedButler(audtSurveyList, intHousesSurveyedButler);
+	intHousesSurveyedButler = TotalHouseholdsSurveyedButler(audtSurveyList, sizeArray, intHousesSurveyedButler);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1
 			&& strcmp(audtSurveyList[intSurveyIndex].strCounty, "Butler") == 0)
@@ -1489,14 +1489,14 @@ float HouseholdsPovertyButler(udtSurveyType audtSurveyList[], int intHousesSurve
 // Name: HouseholdsPovertyKentucky
 // Abstract: Calculates percentage of kentucky households surveyed in poverty
 // --------------------------------------------------------------------------------
-float HouseholdsPovertyKentucky(udtSurveyType audtSurveyList[], int intHousesSurveyedKentucky, int intHouseholdsPovertyKentucky, float sngPercentageHouseholdsPovertyKentucky)
+float HouseholdsPovertyKentucky(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedKentucky, int intHouseholdsPovertyKentucky, float sngPercentageHouseholdsPovertyKentucky)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedKentucky = TotalHouseholdsSurveyedKentucky(audtSurveyList, intHousesSurveyedKentucky);
+	intHousesSurveyedKentucky = TotalHouseholdsSurveyedKentucky(audtSurveyList, sizeArray, intHousesSurveyedKentucky);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1
 			&& strcmp(audtSurveyList[intSurveyIndex].strState, "Kentucky") == 0)
@@ -1563,14 +1563,14 @@ float HouseholdsPovertyKentucky(udtSurveyType audtSurveyList[], int intHousesSur
 // Name: HouseholdsPovertyBoone
 // Abstract: Calculates percentage of boone households surveyed in poverty
 // --------------------------------------------------------------------------------
-float HouseholdsPovertyBoone(udtSurveyType audtSurveyList[], int intHousesSurveyedBoone, int intHouseholdsPovertyBoone, float sngPercentageHouseholdsPovertyBoone)
+float HouseholdsPovertyBoone(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedBoone, int intHouseholdsPovertyBoone, float sngPercentageHouseholdsPovertyBoone)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedBoone = TotalHouseholdsSurveyedBoone(audtSurveyList, intHousesSurveyedBoone);
+	intHousesSurveyedBoone = TotalHouseholdsSurveyedBoone(audtSurveyList, sizeArray, intHousesSurveyedBoone);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1
 			&& strcmp(audtSurveyList[intSurveyIndex].strCounty, "Boone") == 0)
@@ -1637,14 +1637,14 @@ float HouseholdsPovertyBoone(udtSurveyType audtSurveyList[], int intHousesSurvey
 // Name: HouseholdsPovertyKenton
 // Abstract: Calculates percentage of kenton households surveyed in poverty
 // --------------------------------------------------------------------------------
-float HouseholdsPovertyKenton(udtSurveyType audtSurveyList[], int intHousesSurveyedKenton, int intHouseholdsPovertyKenton, float sngPercentageHouseholdsPovertyKenton)
+float HouseholdsPovertyKenton(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedKenton, int intHouseholdsPovertyKenton, float sngPercentageHouseholdsPovertyKenton)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedKenton = TotalHouseholdsSurveyedKenton(audtSurveyList, intHousesSurveyedKenton);
+	intHousesSurveyedKenton = TotalHouseholdsSurveyedKenton(audtSurveyList, sizeArray, intHousesSurveyedKenton);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1
 			&& strcmp(audtSurveyList[intSurveyIndex].strCounty, "Kenton") == 0)
@@ -1711,14 +1711,14 @@ float HouseholdsPovertyKenton(udtSurveyType audtSurveyList[], int intHousesSurve
 // Name: HouseholdsPovertyCaucasian
 // Abstract: Calculates percentage of caucasian households surveyed in poverty
 // --------------------------------------------------------------------------------
-float HouseholdsPovertyCaucasian(udtSurveyType audtSurveyList[], int intHousesSurveyedCaucasian, int intHouseholdsPovertyCaucasian, float sngPercentageHouseholdsPovertyCaucasian)
+float HouseholdsPovertyCaucasian(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedCaucasian, int intHouseholdsPovertyCaucasian, float sngPercentageHouseholdsPovertyCaucasian)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedCaucasian = TotalHouseholdsSurveyedCaucasian(audtSurveyList, intHousesSurveyedCaucasian);
+	intHousesSurveyedCaucasian = TotalHouseholdsSurveyedCaucasian(audtSurveyList, sizeArray, intHousesSurveyedCaucasian);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1
 			&& strcmp(audtSurveyList[intSurveyIndex].strRace, "Caucasian") == 0)
@@ -1784,14 +1784,14 @@ float HouseholdsPovertyCaucasian(udtSurveyType audtSurveyList[], int intHousesSu
 // Name: HouseholdsPovertyAfricanAmerican
 // Abstract: Calculates percentage of african american households surveyed in poverty
 // --------------------------------------------------------------------------------
-float HouseholdsPovertyAfricanAmerican(udtSurveyType audtSurveyList[], int intHousesSurveyedAfricanAmerican, int intHouseholdsPovertyAfricanAmerican, float sngPercentageHouseholdsPovertyAfricanAmerican)
+float HouseholdsPovertyAfricanAmerican(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedAfricanAmerican, int intHouseholdsPovertyAfricanAmerican, float sngPercentageHouseholdsPovertyAfricanAmerican)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedAfricanAmerican = TotalHouseholdsSurveyedAfricanAmerican(audtSurveyList, intHousesSurveyedAfricanAmerican);
+	intHousesSurveyedAfricanAmerican = TotalHouseholdsSurveyedAfricanAmerican(audtSurveyList, sizeArray, intHousesSurveyedAfricanAmerican);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1
 			&& strcmp(audtSurveyList[intSurveyIndex].strRace, "African American") == 0)
@@ -1858,14 +1858,14 @@ float HouseholdsPovertyAfricanAmerican(udtSurveyType audtSurveyList[], int intHo
 // Name: HouseholdsPovertyHispanic
 // Abstract: Calculates percentage of hispanic households surveyed in poverty
 // --------------------------------------------------------------------------------
-float HouseholdsPovertyHispanic(udtSurveyType audtSurveyList[], int intHousesSurveyedHispanic, int intHouseholdsPovertyHispanic, float sngPercentageHouseholdsPovertyHispanic)
+float HouseholdsPovertyHispanic(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedHispanic, int intHouseholdsPovertyHispanic, float sngPercentageHouseholdsPovertyHispanic)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedHispanic = TotalHouseholdsSurveyedHispanic(audtSurveyList, intHousesSurveyedHispanic);
+	intHousesSurveyedHispanic = TotalHouseholdsSurveyedHispanic(audtSurveyList, sizeArray, intHousesSurveyedHispanic);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1
 			&& strcmp(audtSurveyList[intSurveyIndex].strRace, "Hispanic") == 0)
@@ -1932,14 +1932,14 @@ float HouseholdsPovertyHispanic(udtSurveyType audtSurveyList[], int intHousesSur
 // Name: HouseholdsPovertyAsian
 // Abstract: Calculates percentage of asian households surveyed in poverty
 // --------------------------------------------------------------------------------
-float HouseholdsPovertyAsian(udtSurveyType audtSurveyList[], int intHousesSurveyedAsian, int intHouseholdsPovertyAsian, float sngPercentageHouseholdsPovertyAsian)
+float HouseholdsPovertyAsian(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedAsian, int intHouseholdsPovertyAsian, float sngPercentageHouseholdsPovertyAsian)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedAsian = TotalHouseholdsSurveyedAsian(audtSurveyList, intHousesSurveyedAsian);
+	intHousesSurveyedAsian = TotalHouseholdsSurveyedAsian(audtSurveyList, sizeArray, intHousesSurveyedAsian);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1
 			&& strcmp(audtSurveyList[intSurveyIndex].strRace, "Asian") == 0)
@@ -2006,14 +2006,14 @@ float HouseholdsPovertyAsian(udtSurveyType audtSurveyList[], int intHousesSurvey
 // Name: HouseholdsPovertyOther
 // Abstract: Calculates percentage of other households surveyed in poverty
 // --------------------------------------------------------------------------------
-float HouseholdsPovertyOther(udtSurveyType audtSurveyList[], int intHousesSurveyedOther, int intHouseholdsPovertyOther, float sngPercentageHouseholdsPovertyOther)
+float HouseholdsPovertyOther(udtSurveyType audtSurveyList[], size_t sizeArray, int intHousesSurveyedOther, int intHouseholdsPovertyOther, float sngPercentageHouseholdsPovertyOther)
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
-	intHousesSurveyedOther = TotalHouseholdsSurveyedOther(audtSurveyList, intHousesSurveyedOther);
+	intHousesSurveyedOther = TotalHouseholdsSurveyedOther(audtSurveyList, sizeArray, intHousesSurveyedOther);
 
-	for (intIndex = 0; intIndex < sizeof(audtSurveyList) + 1; intIndex += 1)
+	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (audtSurveyList[intSurveyIndex].intHouseholdNumber == 1 && audtSurveyList[intSurveyIndex].sngIncome < MIN_INCOME_1
 			&& strcmp(audtSurveyList[intSurveyIndex].strRace, "Other") == 0)
@@ -2179,8 +2179,12 @@ int PopulateSurveyList(udtSurveyType audtSurveyList[], udtSurveyType* pudtSurvey
 			intIndex += 1;
 		}
 
+		audtSurveyList = pudtSurvey;
+
 		// Delete memory 
-		free(pudtSurvey);
+		free(audtSurveyList);
+
+		
 
 		// Clean up
 		fclose(pfilInput);
