@@ -4,7 +4,7 @@
 
 ## Description
 This application is designed to collect data for a census bureau survey,  
-for the areas of southern Ohio and northern Kentucky.  
+for the areas of Southern Ohio and Northern Kentucky.  
 
 It is written in ‘C’ programming language and is a console application.      
 <br>
