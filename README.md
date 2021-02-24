@@ -24,16 +24,15 @@ It is a two-part project:
 <br>
 <br>  
 
-Data Input in Console:  
+__Data Input in Console:__  
 <img src="Image/C_Input.png" width="550" >  
 
 <br>
 <br>
 
-Data Appended to Text File:  
+__Data Appended to Text File:__  
 <img src="Image/C_Text.File.png" width="550" >
 
-<br>
 <br>
 
 * Read_File.c will read the text file, store the data into a structure array and format it neatly.  
@@ -53,7 +52,7 @@ The array will then be processed in one of eight ways, depending on the user’s
 <br>
 <br>
 
-Data Output in Console:    
+__Data Output in Console:__    
 <img src="Image/C_Output.png" width="650" >
 
 <br>
