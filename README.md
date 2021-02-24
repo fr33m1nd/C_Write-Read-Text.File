@@ -36,7 +36,7 @@ __Data Appended to Text File:__
 <br>
 
 2. Read_File.c will read the text file, store the data into a structure array and format it neatly.  
-The array will then be processed in one of eight ways, depending on the user’s choice.  
+The array will then be processed in one of ten ways, depending on the user’s choice.  
 
     The user’s options include:  
     * Total Households Surveyed 
