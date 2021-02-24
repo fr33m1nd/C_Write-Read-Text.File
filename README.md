@@ -31,7 +31,7 @@ __Data Input in Console:__
 <br>
 
 __Data Appended to Text File:__  
-<img src="Image/C_Text.File.png" width="550" >
+<img src="Image/C_Text.File_Marked.jpg" width="550" >
 
 <br>
 
@@ -53,7 +53,7 @@ The array will then be processed in one of ten ways, depending on the user’s c
 <br>
 
 __Data Output in Console:__    
-<img src="Image/C_Output.png" width="650" >
+<img src="Image/C_Output_Marked.png" width="650" >
 
 <br>
 
