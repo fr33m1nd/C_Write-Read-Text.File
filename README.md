@@ -12,7 +12,7 @@ It is written in ‘C’ programming language and is a console application.
 ## How To Use the Application
 
 It is a two-part project:  
-* Write_File.c will write/append the data collected from the user to a text file.  
+1. Write_File.c will write/append the data collected from the user to a text file.  
 
     The data being collected is:  
     * Date of survey
@@ -35,7 +35,7 @@ __Data Appended to Text File:__
 
 <br>
 
-* Read_File.c will read the text file, store the data into a structure array and format it neatly.  
+2. Read_File.c will read the text file, store the data into a structure array and format it neatly.  
 The array will then be processed in one of eight ways, depending on the user’s choice.  
 
     The user’s options include:  
