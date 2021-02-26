@@ -365,6 +365,9 @@ int TotalHouseholdsSurveyed(udtSurveyType audtSurveyList[], size_t sizeArray, in
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+	
+	// set to 0 so each time function is processed it resets to count accurately
+	intTotalHousesSurveyed = 0;
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
@@ -394,6 +397,9 @@ int TotalHouseholdsSurveyedOhio(udtSurveyType audtSurveyList[], size_t sizeArray
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to count accurately
+	intHousesSurveyedOhio = 0;
+
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strState, "Ohio") == 0)
@@ -421,6 +427,9 @@ int TotalHouseholdsSurveyedHamilton(udtSurveyType audtSurveyList[], size_t sizeA
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to count accurately
+	intHousesSurveyedHamilton = 0;
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
@@ -451,6 +460,9 @@ int TotalHouseholdsSurveyedButler(udtSurveyType audtSurveyList[], size_t sizeArr
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to count accurately
+	intHousesSurveyedButler = 0;
+
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strCounty, "Butler") == 0)
@@ -479,6 +491,9 @@ int TotalHouseholdsSurveyedKentucky(udtSurveyType audtSurveyList[], size_t sizeA
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to count accurately
+	intHousesSurveyedKentucky = 0;
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
@@ -509,6 +524,9 @@ int TotalHouseholdsSurveyedBoone(udtSurveyType audtSurveyList[], size_t sizeArra
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to count accurately
+	intHousesSurveyedBoone = 0;
+
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strCounty, "Boone") == 0)
@@ -537,6 +555,9 @@ int TotalHouseholdsSurveyedKenton(udtSurveyType audtSurveyList[], size_t sizeArr
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to count accurately
+	intHousesSurveyedKenton = 0;
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
@@ -567,6 +588,9 @@ int TotalHouseholdsSurveyedCaucasian(udtSurveyType audtSurveyList[], size_t size
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to count accurately
+	intHousesSurveyedCaucasian = 0;
+
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strRace, "Caucasian") == 0)
@@ -595,6 +619,9 @@ int TotalHouseholdsSurveyedAfricanAmerican(udtSurveyType audtSurveyList[], size_
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to count accurately
+	intHousesSurveyedAfricanAmerican = 0;
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
@@ -625,6 +652,9 @@ int TotalHouseholdsSurveyedHispanic(udtSurveyType audtSurveyList[], size_t sizeA
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to count accurately
+	intHousesSurveyedHispanic = 0;
+
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strRace, "Hispanic") == 0)
@@ -653,6 +683,9 @@ int TotalHouseholdsSurveyedAsian(udtSurveyType audtSurveyList[], size_t sizeArra
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to count accurately
+	intHousesSurveyedAsian = 0;
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
@@ -683,6 +716,9 @@ int TotalHouseholdsSurveyedOther(udtSurveyType audtSurveyList[], size_t sizeArra
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to count accurately
+	intHousesSurveyedOther = 0;
+
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
 	{
 		while (strcmp(audtSurveyList[intSurveyIndex].strRace, "Other") == 0)
@@ -711,6 +747,10 @@ float TotalAverageIncome(udtSurveyType audtSurveyList[], size_t sizeArray, float
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngTotalAverageIncome = 0;
+	sngTotalIncome = 0;
 
 	intTotalHousesSurveyed = TotalHouseholdsSurveyed(audtSurveyList, sizeArray, intTotalHousesSurveyed);
 
@@ -753,6 +793,10 @@ float AverageIncomeOhio(udtSurveyType audtSurveyList[], size_t sizeArray, float 
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngAverageIncomeOhio = 0;
+	sngTotalIncomeOhio = 0;
+
 	intHousesSurveyedOhio = TotalHouseholdsSurveyedOhio(audtSurveyList, sizeArray, intHousesSurveyedOhio);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -793,6 +837,10 @@ float AverageIncomeHamilton(udtSurveyType audtSurveyList[], size_t sizeArray, fl
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngAverageIncomeHamilton = 0;
+	sngTotalIncomeHamilton = 0;
 
 	intHousesSurveyedHamilton = TotalHouseholdsSurveyedHamilton(audtSurveyList, sizeArray, intHousesSurveyedHamilton);
 
@@ -835,6 +883,10 @@ float AverageIncomeButler(udtSurveyType audtSurveyList[], size_t sizeArray, floa
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngAverageIncomeButler = 0;
+	sngTotalIncomeButler = 0;
+
 	intHousesSurveyedButler = TotalHouseholdsSurveyedButler(audtSurveyList, sizeArray, intHousesSurveyedButler);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -875,6 +927,10 @@ float AverageIncomeKentucky(udtSurveyType audtSurveyList[], size_t sizeArray, fl
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngAverageIncomeKentucky = 0;
+	sngTotalIncomeKentucky = 0;
 
 	intHousesSurveyedKentucky = TotalHouseholdsSurveyedKentucky(audtSurveyList, sizeArray, intHousesSurveyedKentucky);
 
@@ -917,6 +973,10 @@ float AverageIncomeBoone(udtSurveyType audtSurveyList[], size_t sizeArray, float
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngAverageIncomeBoone = 0;
+	sngTotalIncomeBoone = 0;
+
 	intHousesSurveyedBoone = TotalHouseholdsSurveyedBoone(audtSurveyList, sizeArray, intHousesSurveyedBoone);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -958,6 +1018,10 @@ float AverageIncomeKenton(udtSurveyType audtSurveyList[], size_t sizeArray, floa
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngAverageIncomeKenton = 0;
+	sngTotalIncomeKenton = 0;
+
 	intHousesSurveyedKenton = TotalHouseholdsSurveyedKenton(audtSurveyList, sizeArray, intHousesSurveyedKenton);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -997,6 +1061,10 @@ float AverageIncomeCaucasian(udtSurveyType audtSurveyList[], size_t sizeArray, f
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngAverageIncomeCaucasian = 0;
+	sngTotalIncomeCaucasian = 0;
 
 	intHousesSurveyedCaucasian = TotalHouseholdsSurveyedCaucasian(audtSurveyList, sizeArray, intHousesSurveyedCaucasian);
 
@@ -1038,6 +1106,10 @@ float AverageIncomeAfricanAmerican(udtSurveyType audtSurveyList[], size_t sizeAr
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngAverageIncomeAfricanAmerican = 0;
+	sngTotalIncomeAfricanAmerican = 0;
+
 	intHousesSurveyedAfricanAmerican = TotalHouseholdsSurveyedAfricanAmerican(audtSurveyList, sizeArray, intHousesSurveyedAfricanAmerican);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -1078,6 +1150,10 @@ float AverageIncomeHispanic(udtSurveyType audtSurveyList[], size_t sizeArray, fl
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngAverageIncomeHispanic = 0;
+	sngTotalIncomeHispanic = 0;
 
 	intHousesSurveyedHispanic = TotalHouseholdsSurveyedHispanic(audtSurveyList, sizeArray, intHousesSurveyedHispanic);
 
@@ -1121,6 +1197,10 @@ float AverageIncomeAsian(udtSurveyType audtSurveyList[], size_t sizeArray, float
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngAverageIncomeAsian = 0;
+	sngTotalIncomeAsian = 0;
+
 	intHousesSurveyedAsian = TotalHouseholdsSurveyedAsian(audtSurveyList, sizeArray, intHousesSurveyedAsian);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -1162,6 +1242,10 @@ float AverageIncomeOther(udtSurveyType audtSurveyList[], size_t sizeArray, float
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	sngAverageIncomeOther = 0;
+	sngTotalIncomeOther = 0;
+
 	intHousesSurveyedOther = TotalHouseholdsSurveyedOther(audtSurveyList, sizeArray, intHousesSurveyedOther);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -1202,6 +1286,10 @@ float TotalHouseholdsPoverty(udtSurveyType audtSurveyList[], size_t sizeArray, i
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intTotalHouseholdsPoverty = 0;
+	sngPercentageHouseholdsPoverty = 0;
 
 	intTotalHousesSurveyed = TotalHouseholdsSurveyed(audtSurveyList, sizeArray, intTotalHousesSurveyed);
 
@@ -1271,6 +1359,10 @@ float HouseholdsPovertyOhio(udtSurveyType audtSurveyList[], size_t sizeArray, in
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intHouseholdsPovertyOhio = 0;
+	sngPercentageHouseholdsPovertyOhio = 0;
 
 	intHousesSurveyedOhio = TotalHouseholdsSurveyedOhio(audtSurveyList, sizeArray, intHousesSurveyedOhio);
 
@@ -1346,6 +1438,10 @@ float HouseholdsPovertyHamilton(udtSurveyType audtSurveyList[], size_t sizeArray
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intHouseholdsPovertyHamilton = 0;
+	sngPercentageHouseholdsPovertyHamilton = 0;
+
 	intHousesSurveyedHamilton = TotalHouseholdsSurveyedHamilton(audtSurveyList, sizeArray, intHousesSurveyedHamilton);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -1419,6 +1515,10 @@ float HouseholdsPovertyButler(udtSurveyType audtSurveyList[], size_t sizeArray, 
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intHouseholdsPovertyButler = 0;
+	sngPercentageHouseholdsPovertyButler = 0;
 
 	intHousesSurveyedButler = TotalHouseholdsSurveyedButler(audtSurveyList, sizeArray, intHousesSurveyedButler);
 
@@ -1494,6 +1594,10 @@ float HouseholdsPovertyKentucky(udtSurveyType audtSurveyList[], size_t sizeArray
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intHouseholdsPovertyKentucky = 0;
+	sngPercentageHouseholdsPovertyKentucky = 0;
+
 	intHousesSurveyedKentucky = TotalHouseholdsSurveyedKentucky(audtSurveyList, sizeArray, intHousesSurveyedKentucky);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -1567,6 +1671,10 @@ float HouseholdsPovertyBoone(udtSurveyType audtSurveyList[], size_t sizeArray, i
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intHouseholdsPovertyBoone = 0;
+	sngPercentageHouseholdsPovertyBoone = 0;
 
 	intHousesSurveyedBoone = TotalHouseholdsSurveyedBoone(audtSurveyList, sizeArray, intHousesSurveyedBoone);
 
@@ -1642,6 +1750,10 @@ float HouseholdsPovertyKenton(udtSurveyType audtSurveyList[], size_t sizeArray, 
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intHouseholdsPovertyKenton = 0;
+	sngPercentageHouseholdsPovertyKenton = 0;
+
 	intHousesSurveyedKenton = TotalHouseholdsSurveyedKenton(audtSurveyList, sizeArray, intHousesSurveyedKenton);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -1716,6 +1828,10 @@ float HouseholdsPovertyCaucasian(udtSurveyType audtSurveyList[], size_t sizeArra
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intHouseholdsPovertyCaucasian = 0;
+	sngPercentageHouseholdsPovertyCaucasian = 0;
+
 	intHousesSurveyedCaucasian = TotalHouseholdsSurveyedCaucasian(audtSurveyList, sizeArray, intHousesSurveyedCaucasian);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -1788,6 +1904,10 @@ float HouseholdsPovertyAfricanAmerican(udtSurveyType audtSurveyList[], size_t si
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intHouseholdsPovertyAfricanAmerican = 0;
+	sngPercentageHouseholdsPovertyAfricanAmerican = 0;
 
 	intHousesSurveyedAfricanAmerican = TotalHouseholdsSurveyedAfricanAmerican(audtSurveyList, sizeArray, intHousesSurveyedAfricanAmerican);
 
@@ -1863,6 +1983,10 @@ float HouseholdsPovertyHispanic(udtSurveyType audtSurveyList[], size_t sizeArray
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intHouseholdsPovertyHispanic = 0;
+	sngPercentageHouseholdsPovertyHispanic = 0;
+
 	intHousesSurveyedHispanic = TotalHouseholdsSurveyedHispanic(audtSurveyList, sizeArray, intHousesSurveyedHispanic);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -1937,6 +2061,10 @@ float HouseholdsPovertyAsian(udtSurveyType audtSurveyList[], size_t sizeArray, i
 	int intIndex = 0;
 	int intSurveyIndex = 0;
 
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intHouseholdsPovertyAsian = 0;
+	sngPercentageHouseholdsPovertyAsian = 0;
+
 	intHousesSurveyedAsian = TotalHouseholdsSurveyedAsian(audtSurveyList, sizeArray, intHousesSurveyedAsian);
 
 	for (intIndex = 0; intIndex < sizeArray - 1; intIndex += 1)
@@ -2010,6 +2138,10 @@ float HouseholdsPovertyOther(udtSurveyType audtSurveyList[], size_t sizeArray, i
 {
 	int intIndex = 0;
 	int intSurveyIndex = 0;
+
+	// set to 0 so each time function is processed it resets to calculate accurately
+	intHouseholdsPovertyOther = 0;
+	sngPercentageHouseholdsPovertyOther = 0;
 
 	intHousesSurveyedOther = TotalHouseholdsSurveyedOther(audtSurveyList, sizeArray, intHousesSurveyedOther);
 
@@ -2151,8 +2283,6 @@ int PopulateSurveyList(udtSurveyType audtSurveyList[], udtSurveyType* pudtSurvey
 	int intIndex = 0;
 	size_t sizeArray = 0;
 
-	// pudtSurvey = (udtSurveyType*) calloc(1, sizeof(udtSurveyType));
-
 
 	// Try to open the file for reading (notice you have to double up the backslashes)
 	intResultFlag = OpenInputFile("/temp/test.txt", &pfilInput);
@@ -2169,22 +2299,12 @@ int PopulateSurveyList(udtSurveyType audtSurveyList[], udtSurveyType* pudtSurvey
 
 			ReadNextLineFromFile(strBuffer, pfilInput);
 
-			// Dynamically allocate memory 
-			pudtSurvey = realloc(pudtSurvey, sizeArray * sizeof(udtSurveyType));
-
 			// Add to array
 			AddSurveyToArray(strBuffer, &audtSurveyList[intIndex]);
 
 			// Next record
 			intIndex += 1;
-		}
-
-		audtSurveyList = pudtSurvey;
-
-		// Delete memory 
-		free(audtSurveyList);
-
-		
+		}		
 
 		// Clean up
 		fclose(pfilInput);
