@@ -68,5 +68,6 @@ This application was created as a final project for my C Programming course in c
 Some of the code in Read_File.c uses self-written functions, instead of using built-in functions  
 provided by some of the C libraries. We were not permitted to use the built-in functions most of  
 the course, so I decided to include some of my "basic training" in the code.  
-I enjoyed getting more familiar with C while completing this project, and I look forward to adding  
-to my skills.  
+I hope you got a chance to check out the live video demonstration in the links provided.  
+All the source code for the project is included in this repository.  
+Thank you for your time!
