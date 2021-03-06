@@ -7,7 +7,8 @@
 This application is designed to collect data for a census bureau survey,  
 for the areas of Southern Ohio and Northern Kentucky.  
 
-It is written in ‘C’ programming language and is a console application.      
+It is written in ‘C’ programming language and is a console application  
+that was created in Visual Studio Enterprise 2019.      
 <br>
 
 ## How To Use the Application
